@@ -19,7 +19,22 @@ For a complete list of dependencies, see `requirements.txt`.
    cd stereo-object-detection
    ```
 
-2. Install the required packages:
+2. Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment:
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source venv/bin/activate
+     ```
+
+4. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
